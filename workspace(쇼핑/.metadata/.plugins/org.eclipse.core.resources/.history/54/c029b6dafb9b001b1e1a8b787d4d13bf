@@ -1,9 +1,0 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-    <%@include file="dbcon.jsp" %>
-<%
-	sql = "insert into MEMBER_TBL_02 values(?,?,?,?,?,?,?)";
-	ps = con.prepareStatement(sql);
-	
-
-%>
