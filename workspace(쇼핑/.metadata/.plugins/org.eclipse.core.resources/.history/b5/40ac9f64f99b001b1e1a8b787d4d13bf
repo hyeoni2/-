@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>홈으로</title>
+</head>
+<body>
+<%@include file="header.jsp" %>
+	<section>
+			<h2>홈쇼핑 회원 등록</h2>
+	<form action="insertMemberPro.jsp" method="post" name="f">
+		<table border="1" width = "800" style="margin: 0 auto;">
+			<tr>
+				<th>회원번호(자동발생)</th>
+			</tr>
+		
+		
+		
+		</table>
+	
+	
+	</form>
+
+	</section>
+<%@include file="footer.jsp" %>
+</body>
+</html>

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	height: 80px;
+	line-height: 80px;
+	background-color: #8080ff;
+}
+header h2{
+	text-align: center;
+	color: white;
+}
+nav{
+	height: 30px;
+	line-height: 30px;
+	background-color: #000077;
+}
+nav a{
+	text-decoration: none;
+	padding-left: 30px;
+	color: white;
+}
+section{
+	background-color: #ccccff;
+	height: 800px;
+	padding-left: 20px; 
+}
+section h2{
+	text-align: center;
+	padding: 30px;
+}
+ol li{
+	margin-left: 20px;
+}
+td a{
+	text-decoration: none;
+	color: gray;
+}
+footer{
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background-color: #000077;
+	color: white;
+}
+

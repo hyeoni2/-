@@ -1,0 +1,51 @@
+@charset "UTF-8";
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	background-color: purple;
+	height: 80px;
+	padding-top: 20px;
+}
+header h2{
+	color: white;
+	padding-bottom: 20px;
+}
+nav{
+	background: #400080;
+	height: 30px;
+	line-height : 30px;
+}
+
+nav a{
+	padding-left: 20px;
+	color: white;
+	text-decoration: none;
+}
+section{
+	background-color: #ffe6ff;
+	height: 500px;
+	padding: 10px;
+}
+h2{
+	text-align: center;	
+	margin : 15px;
+}
+section div{
+	margin-left: 10px;
+	
+}
+ol li{
+	margin-left: 20px;	
+}
+
+
+footer{
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 50px;
+	line-height: 50px;
+}

@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@include file="dbcon.jsp" %>
+<%try{
+	sql = "insert into MEMBER_TBL_02 values(?,?,?,?,?,?,?)";
+	ps = con.prepareStatement(sql);
+	ps.setString(1, request.toString());
+	ps.setString(2, request.toString());
+	ps.setString(3, request.toString());
+	ps.setString(4, request.toString());
+	ps.setString(5, request.toString());
+	ps.setString(6, request.toString());
+	ps.setString(7, request.toString());
+	ps.executeUpdate();
+%>
+	<script>
+		alert("성공적으로 등록되었습니다.")
+	</script>
+<%
+}catch(Exception e){
+	
+}
+%>

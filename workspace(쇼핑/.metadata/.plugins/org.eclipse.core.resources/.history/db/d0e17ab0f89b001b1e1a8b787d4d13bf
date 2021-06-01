@@ -1,0 +1,43 @@
+@charset "UTF-8";
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	height: 70px;
+	line-height: 70px;
+	background-color: #3131ff;
+}
+
+header h2{
+	text-align: center;
+	color: white;
+}
+nav{
+	height: 40px;
+	line-height: 40px;
+	background-color: navy;
+}
+nav a{
+	padding-left: 20px;
+	color: white;
+	text-decoration: none;
+}
+section{
+	height: 500px;
+	background-color: #d9d9ff;
+	padding-left: 10px;
+}
+section h2{
+	text-align: center;
+	padding: 20px;
+}
+section div{
+	padding-left: 20px;
+	
+}
+ol li{
+	margin-left: 20px;
+}
